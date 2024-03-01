@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#btn {
+    display: block;
+    /* Ensures the button takes the full width available */
+    margin: 0 auto;
+    /* Centers the button horizontally */
+}
+
+.container {
+    margin-top: 10px;
+}
+
+.inner-container {
+    position: relative;
+}
+
+/* label {
+    margin-top: 39px;
+    margin-left: 7px;
+    position: absolute;
+    font-size: smaller;
+    font-weight: 120;
+} */
+
+/* Styles for screens less than 418px wide */
+@media only screen and (max-width: 418px) {
+
+
+    h1 {
+        /* Same styles for h1 on smaller screens */
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+
+    .container {
+        /* Same styles for .container on smaller screens */
+        margin-top: 10px;
+    }
+
+    .inner-container {
+        /* Same styles for .inner-container on smaller screens */
+        position: relative;
+    }
+
+
+    label {
+        /* Same styles for label on smaller screens */
+        margin-top: 39px;
+        margin-left: 7px;
+        position: absolute;
+        font-size: smaller;
+        font-weight: 120;
+    }
+}
